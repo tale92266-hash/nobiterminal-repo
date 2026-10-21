@@ -32,6 +32,19 @@ MD5sum: 3a8fb02ae0dc80df5b7d0a9aefb39462
 SHA1: c7baa9f9b92fc5e20bbdc7074f41af6e755c449d
 SHA256: 886a2bf85e75e79bba07feb19bc52d2574175b863d2b143d6c99a55b0708cadb
 
+Package: ca-certificates
+Architecture: all
+Installed-Size: 240
+Maintainer: @termux
+Version: 1:2026.10.20-2
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+Filename: ./ca-certificates_1:2026.10.20-2_all.deb
+Size: 110156
+MD5sum: 6cff6869253b6122145f55438bca0d4c
+SHA1: 7390d7a883470bee7c342b89a4784229a2003ca0
+SHA256: 85d03ed26c634657d140f18f36b0cbe11d4f2f146f758134dc092d63e8850081
+
 Package: dpkg
 Architecture: aarch64
 Installed-Size: 1488
