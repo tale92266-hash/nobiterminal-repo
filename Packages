@@ -728,6 +728,19 @@ MD5sum: ae90a272f294a666ac5d8f60a36962b6
 SHA1: 3b49afd5676950cf8f5fcbe82d83a5da7c47e900
 SHA256: 507e2e09fe2b18cdc0b3ff9c21ce4d917da358ad94be9e56744eafcadeebeb9c
 
+Package: nobi-tools
+Architecture: all
+Installed-Size: 52
+Maintainer: NobiTerminal
+Version: 1.0.0
+Homepage: https://github.com/tale92266-hash/nobiterminal-packages
+Description: NobiTerminal setup tools (backup, restore and dev setup scripts)
+Filename: ./nobi-tools_1.0.0_all.deb
+Size: 3312
+MD5sum: 84b5d55945a9af4c41d6fc6a6debfd5a
+SHA1: d88e06d325a34de1e303194d20d6fe3daf3c8f41
+SHA256: 9ba99ea95abfa0e7c8807f04b508e4047fbd31580e865c66b0b0d170eef73aab
+
 Package: nodejs
 Architecture: aarch64
 Installed-Size: 50424
