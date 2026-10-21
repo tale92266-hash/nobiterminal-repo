@@ -172,20 +172,34 @@ MD5sum: 4576769d5759c2df627296ac4bf27ce6
 SHA1: c89477a41a3a20c8cdfd872d622a45fcbe9f584e
 SHA256: 819758359bc451be883d7c2036df9db7870eaf04b0a04a6cb10a030b62592278
 
+Package: golang-doc
+Architecture: aarch64
+Installed-Size: 476
+Maintainer: @termux
+Version: 3:1.27.3-1
+Homepage: https://go.dev/
+Depends: golang (= 3:1.27.3-1)
+Description: Go programming language - documentation
+Filename: ./golang-doc_3:1.27.3-1_aarch64.deb
+Size: 94704
+MD5sum: 6c1a006574db26083f82b987c937b87b
+SHA1: f8cb89ab99ce101ea896fd3f75072696d0031aca
+SHA256: 1ffd64e89167c11a9f20f50ce00ebef48fca6e12939cf1511af93491e1463b4b
+
 Package: golang
 Architecture: aarch64
 Installed-Size: 223924
 Maintainer: @termux
-Version: 3:1.27.2-1
+Version: 3:1.27.3-1
 Homepage: https://go.dev/
 Depends: clang
 Recommends: resolv-conf
 Description: Go programming language compiler
-Filename: ./golang_3:1.27.2-1_aarch64.deb
-Size: 38113276
-MD5sum: b8503c0d123dcf08cd4feae4d250cd60
-SHA1: 7c922fea2599aced3ca4fd2ce493a2a754e300cf
-SHA256: ee4acecbb5edccfd723edd4a2550f576ec349d94da90cfa4faed49c00dcb12ce
+Filename: ./golang_3:1.27.3-1_aarch64.deb
+Size: 38124832
+MD5sum: e73a758106cf514a3419622f9a7a19da
+SHA1: b92ed49bdd1d02c37756d9eada11b661d810c1bd
+SHA256: 1c6d383cf17ec3d14373b14ce62a612aafaa16c3a78e503e14bfb24a9ddd3d87
 
 Package: gzip
 Architecture: aarch64
@@ -745,7 +759,7 @@ Package: nodejs
 Architecture: aarch64
 Installed-Size: 50424
 Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
-Version: 26.4.0-2
+Version: 26.4.0-3
 Homepage: https://nodejs.org/
 Breaks: nodejs-dev
 Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib, libffi
@@ -754,11 +768,11 @@ Recommends: npm
 Replaces: nodejs-current, nodejs-dev
 Suggests: clang, make, pkg-config, python
 Description: Open Source, cross-platform JavaScript runtime environment
-Filename: ./nodejs_26.4.0-2_aarch64.deb
-Size: 10337856
-MD5sum: f27cf534eeab4725fdfe14917d32fb41
-SHA1: 0f8c4c10afa4a8ae7d6ebebadc41f3f936843b2f
-SHA256: 9968276ab3b954cf42fdd9c590dd77e11b3c757f8f14e7a14727e4b573759612
+Filename: ./nodejs_26.4.0-3_aarch64.deb
+Size: 10336352
+MD5sum: 177c12d118eea0fbd05c45d572a67806
+SHA1: db34247ad98879ea0aa2f964e1e9406b4b576c93
+SHA256: 8f0948535953e0b0dc766e72b6e7fb0b24a038eae580fbd516bf79da2469688b
 
 Package: npm
 Architecture: all
@@ -867,19 +881,19 @@ SHA256: 17f1e13a6cbc20ac90fd1d303abcf48adb328a0f7397ad3ab2886bbad850a3f4
 
 Package: python-pip
 Architecture: all
-Installed-Size: 7404
+Installed-Size: 7168
 Maintainer: @termux
-Version: 26.2.2-1
+Version: 26.2.2-3
 Homepage: https://pip.pypa.io/
 Breaks: python (<< 3.11.1-1)
-Depends: python (>= 3.11.1-1)
+Depends: ca-certificates, python (>= 3.11.1-1)
 Recommends: clang, make, pkg-config
 Description: The PyPA recommended tool for installing Python packages
-Filename: ./python-pip_26.2.2-1_all.deb
-Size: 1194740
-MD5sum: 94be97cb1cf09ceb8a7fd4e10945c4b5
-SHA1: 2f6beef47b0cdeb20325949ab640d7b8996f07aa
-SHA256: 303d045ac1a2c58abdb8ddfadd414775838b0ceab021be5f2a84bdd54382b11b
+Filename: ./python-pip_26.2.2-3_all.deb
+Size: 1072648
+MD5sum: a12dfb4199cae1b4bccb61f577c8d336
+SHA1: c89c566f5e16f840d86ca34ae43dbdce96072223
+SHA256: 1e70bc7a276b1895f932403b9be95fd7211b562da88305a6f7137b4d8181da6c
 
 Package: python
 Architecture: aarch64
