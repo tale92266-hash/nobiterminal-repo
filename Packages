@@ -1,0 +1,156 @@
+Package: git
+Architecture: aarch64
+Installed-Size: 25076
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.0-1
+Homepage: https://git-scm.com/
+Depends: libcurl, libexpat, libiconv, less, openssl, pcre2, zlib
+Recommends: openssh
+Suggests: perl
+Description: Fast, scalable, distributed revision control system
+Filename: ./git_2.56.0-1_aarch64.deb
+Size: 4582024
+MD5sum: 24ba856c5f4dbb258f577d317730eb59
+SHA1: 685668faa09322848a95db5e423c14cb90e8cbed
+SHA256: 2156b88abe64b6dcbaaff5b64dee34b745ee8927ed3eb0e1a0ed67f2abcf975d
+
+Package: krb5
+Architecture: aarch64
+Installed-Size: 3940
+Maintainer: @termux
+Version: 1.22.2-1
+Homepage: https://web.mit.edu/kerberos
+Breaks: krb5-dev
+Depends: libandroid-support, libandroid-glob, libresolv-wrapper, readline, openssl, libdb
+Replaces: krb5-dev
+Description: The Kerberos network authentication system
+Filename: ./krb5_1.22.2-1_aarch64.deb
+Size: 901880
+MD5sum: 059a53653e37616d9b0e3e5cd7164156
+SHA1: 54744ad23f2d7e98eb5e853a2982e0a1937bcb0b
+SHA256: bb44b4b610b9398176ddee3a7609b6c672e61ec1a85bdc08e5f6277ca40072de
+
+Package: ldns
+Architecture: aarch64
+Installed-Size: 2880
+Maintainer: @termux
+Version: 1.9.2-1
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Breaks: ldns-dev
+Depends: openssl, resolv-conf
+Replaces: ldns-dev
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+Filename: ./ldns_1.9.2-1_aarch64.deb
+Size: 305196
+MD5sum: 518a570568e6df1e30da564a6df6a91a
+SHA1: ab37c54ed48ca885b9d1f78b039d7cad4e135db6
+SHA256: c77b50813082b43c8aea06a94ce48deb759d253f0c14db6b564eb2117205e09c
+
+Package: libdb
+Architecture: aarch64
+Installed-Size: 2296
+Maintainer: @termux
+Version: 18.1.40-7
+Homepage: https://www.oracle.com/database/berkeley-db
+Breaks: libdb-dev
+Depends: libc++
+Replaces: libdb-dev
+Description: The Berkeley DB embedded database system (library)
+Filename: ./libdb_18.1.40-7_aarch64.deb
+Size: 498960
+MD5sum: 33026a875f67fb13b486bc6069fc5b14
+SHA1: 80eb5d7d4766cd29c8b7f2fd986a02e5f101b3b1
+SHA256: 1d2b220ddf7b7786d9ed66618cfc2fa9a1423d2fbff40a752154887bb2bf3352
+
+Package: libedit
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 20260512-3.1-1
+Homepage: https://thrysoee.dk/editline/
+Breaks: libedit-dev
+Depends: ncurses
+Replaces: libedit-dev
+Description: Library providing line editing, history, and tokenization functions
+Filename: ./libedit_20260512-3.1-1_aarch64.deb
+Size: 87832
+MD5sum: 96e62f25fd0ff4e5f63f3d0e99850335
+SHA1: e512acfae9f63d89059bb966d8fa9c2ff7e2dab7
+SHA256: 26d1b087aa55c81879619d597aff74e595f4a19bf543ed7ebd00c2e5495925a3
+
+Package: libexpat
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: @termux
+Version: 2.9.0-1
+Homepage: https://libexpat.github.io/
+Breaks: libexpat-dev
+Replaces: libexpat-dev
+Description: XML parsing C library
+Filename: ./libexpat_2.9.0-1_aarch64.deb
+Size: 100276
+MD5sum: 50a26e39621d1553675166c24daabf19
+SHA1: 4153201473791763df7ada387ac498055402cd40
+SHA256: e6e71db4e135563781a69864cffce72732e5c2829ae69eb8225d34ba02bc27bb
+
+Package: libresolv-wrapper
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.1.8-1
+Homepage: https://cwrap.org/resolv_wrapper.html
+Depends: resolv-conf
+Description: A wrapper for DNS name resolving or DNS faking
+Filename: ./libresolv-wrapper_1.1.8-1_aarch64.deb
+Size: 11240
+MD5sum: aac83609ad740f2918a5f27341a023d0
+SHA1: 1a8b6a9f251b17b935607e6f04e1cdbf350a0e35
+SHA256: 08c93459341c442057ebefb83ee08e9fbf592fb18e38f73cee4d22a7094fb974
+
+Package: openssh-sftp-server
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 10.6p1-3
+Homepage: https://www.openssh.com/
+Depends: libandroid-support
+Breaks: openssh (<= 9.9p2-1)
+Replaces: openssh (<= 9.9p2-1)
+Description: OpenSSH SFTP server subsystem
+Filename: ./openssh-sftp-server_10.6p1-3_aarch64.deb
+Size: 56700
+MD5sum: 75b14cb3f15a81a906ca4e7014bd1273
+SHA1: e6fd0a7bd64129bd269914497f21efce22ae842c
+SHA256: 49abd32628c8d636000a6076a159409820490b0a3fa5da15558063280e26d66b
+
+Package: openssh
+Architecture: aarch64
+Installed-Size: 6368
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 10.6p1-3
+Homepage: https://www.openssh.com/
+Depends: krb5, ldns, libandroid-support, libedit, openssh-sftp-server, openssl, termux-auth, zlib
+Conflicts: dropbear
+Suggests: termux-services
+Description: Secure shell for logging into a remote machine
+Filename: ./openssh_10.6p1-3_aarch64.deb
+Size: 969856
+MD5sum: 02928d9f716e7a60ceb5bd66377b40bb
+SHA1: 50f1943b3f116af6628ef41af877af3afad72672
+SHA256: 53aff23a8a633f5546982a5194138acaca2c2b024845518dade92a58c065ec73
+
+Package: termux-auth
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 1.5.0-2
+Homepage: https://github.com/termux/termux-auth
+Breaks: termux-auth-dev
+Depends: openssl
+Replaces: termux-auth-dev
+Description: Password authentication library and utility for Termux
+Filename: ./termux-auth_1.5.0-2_aarch64.deb
+Size: 6932
+MD5sum: e7c0a10728a2f7e1052f71a929af5065
+SHA1: 31295653d38e158ecfef51672adec39204317b4d
+SHA256: e165f6d09368ad86cd5d0150fc1c0a8c47224057b4a809a08cd8e816f1c01556
