@@ -767,6 +767,35 @@ MD5sum: afc62b68522c4bb57998b5b1ed441fbe
 SHA1: 14b3d3da93e6896b6be90274b4c9d77c106ee65f
 SHA256: efb58dcb3870722e66c48414b8e873ed27007ce0402209910f4ac620874098d5
 
+Package: attr-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 2.6.0-1
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: attr (= 2.6.0-1)
+Description: Static libraries for attr
+Filename: ./attr-static_2.6.0-1_aarch64.deb
+Size: 7008
+MD5sum: ee365074576f2188e3cf450e4ed6815a
+SHA1: 2a37f17a589021cc38358d816abd7e4f0917a7b6
+SHA256: 459793c649d755f5af0e04a15e498a83f86ad00560a8c0ae5c43e82d546f2f00
+
+Package: attr
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 2.6.0-1
+Homepage: http://savannah.nongnu.org/projects/attr/
+Breaks: attr-dev
+Replaces: attr-dev
+Description: Utilities for manipulating filesystem extended attributes
+Filename: ./attr_2.6.0-1_aarch64.deb
+Size: 56316
+MD5sum: 10b2169cbcb940a76aee8aba33f361a0
+SHA1: 918db843e43c94e14ca420c42d572c90877078a3
+SHA256: 09e034969007fb56a75de1ff11629432a26f4f664f3a5842c5c8fa1b0e42de18
+
 Package: atuin
 Architecture: aarch64
 Installed-Size: 44604
@@ -1814,6 +1843,93 @@ MD5sum: 6cff6869253b6122145f55438bca0d4c
 SHA1: 7390d7a883470bee7c342b89a4784229a2003ca0
 SHA256: 85d03ed26c634657d140f18f36b0cbe11d4f2f146f758134dc092d63e8850081
 
+Package: cabextract
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 1.11-2
+Homepage: https://www.cabextract.org.uk/
+Description: A program to extract Microsoft cabinet (.CAB) files
+Filename: ./cabextract_1.11-2_aarch64.deb
+Size: 27320
+MD5sum: 079197f55d3ccdb190981630e783de1d
+SHA1: 8edd0a87967a1b03d6b18b20968a5b875db19eb5
+SHA256: 87956c53701ebb1a214d8ae883b5a1e2014310e19d6aa1cc4732c2b901d3787c
+
+Package: cabin
+Architecture: aarch64
+Installed-Size: 10404
+Maintainer: @termux
+Version: 0.17.0-1
+Homepage: https://cabinpkg.com/
+Conflicts: poac
+Replaces: poac
+Suggests: clang, make, pkg-config
+Description: A package manager and build system for C/C++
+Filename: ./cabin_0.17.0-1_aarch64.deb
+Size: 2949592
+MD5sum: 7c26650f80cc39f19fda27d1bdf35d70
+SHA1: e054ba0fc6d2c607527b73aa043e8cffc1957076
+SHA256: 9fd2885093a81dac3265aef45c46ddbbf25f63f983dc93dbf946f02e275d2253
+
+Package: caddy
+Architecture: aarch64
+Installed-Size: 57984
+Maintainer: @termux
+Version: 2.11.7-3
+Homepage: https://caddyserver.com/
+Description: Fast, cross-platform HTTP/2 web server
+Filename: ./caddy_2.11.7-3_aarch64.deb
+Size: 12642648
+MD5sum: dab8c408ac28698f0aa18c2fa09dc83f
+SHA1: d8368a21968026ce1d46397a9c76a68082b60a69
+SHA256: 5e369409880826d6d5bc05c344a2b1d3412249c75c020394f6bb3a417850d99f
+
+Package: calc
+Architecture: aarch64
+Installed-Size: 6824
+Maintainer: @termux
+Version: 2.17.0.2-1
+Homepage: http://www.isthe.com/chongo/tech/comp/calc/
+Depends: ncurses, readline
+Description: Arbitrary precision console calculator
+Filename: ./calc_2.17.0.2-1_aarch64.deb
+Size: 840760
+MD5sum: f1cb9915f8adb8fe7d6dcf67ac4747db
+SHA1: 31073108b0565c166e0d982bc0d677b4aa14fbc1
+SHA256: da04b221661677055e4877f11e8ee190571ad5b1f50f29f67fae14c9fa8f29bc
+
+Package: calcurse-caldav
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 4.8.2-3
+Homepage: https://calcurse.org/
+Depends: python, python-pip, calcurse (= 4.8.2-3)
+Breaks: calcurse (<< 4.7.1-1)
+Replaces: calcurse (<< 4.7.1-1)
+Description: Sync calcurse with remote caldav calendar
+Filename: ./calcurse-caldav_4.8.2-3_aarch64.deb
+Size: 7980
+MD5sum: 9b64afdba97ad5ced63b35032f801d02
+SHA1: 3d6d50c8b6f53ab179f6608240aeb382cd9c61f5
+SHA256: 9d811f7d95ca0bbe157cb6648944e9d7ca79f55852c0dd6f476533cccfb0f2ad
+
+Package: calcurse
+Architecture: aarch64
+Installed-Size: 620
+Maintainer: @termux
+Version: 4.8.2-3
+Homepage: https://calcurse.org/
+Depends: libandroid-support, ncurses
+Recommends: calcurse-caldav
+Description: calcurse is a calendar and scheduling application for the command line
+Filename: ./calcurse_4.8.2-3_aarch64.deb
+Size: 146220
+MD5sum: 902d2f12fabfff0a2a5a8a2f660bc65e
+SHA1: 235afc0e4a712d6bffac2745a98b5b9375a0e4fc
+SHA256: ef0b9a839103db6607ee5910872a755093fd293264049624e38584ec8cc7fd2c
+
 Package: capstone-static
 Architecture: aarch64
 Installed-Size: 10188
@@ -1842,6 +1958,19 @@ Size: 1471760
 MD5sum: 558073159dda44cbeed5655274645c67
 SHA1: 56bcc613d6f856658c6fd420543ff54da48f5cbc
 SHA256: d0098f39f97712e7628b7366552aaefcd8f45786b992a492c1d763520eda26f8
+
+Package: carapace
+Architecture: aarch64
+Installed-Size: 55708
+Maintainer: @termux
+Version: 1.8.1-2
+Homepage: https://carapace.sh/
+Description: Multi-shell multi-command argument completer
+Filename: ./carapace_1.8.1-2_aarch64.deb
+Size: 8532180
+MD5sum: 11b4a21e9c254a6a573e572044d390f5
+SHA1: 3513728c96ee27af5290fa59514ab8a5ebbdd427
+SHA256: 8c35fa3277ec6317aa77fa35a8a7fbd91722d09f58bbdf743f5c76d20489d9eb
 
 Package: clang
 Architecture: aarch64
