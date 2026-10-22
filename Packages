@@ -400,6 +400,34 @@ MD5sum: e2a169f04578033d0d27348f02282369
 SHA1: 7c4bcb9101c31966ae33a9072750b6a1a3cb9f6e
 SHA256: f76b112efadb207aad8660dc06e95d0bfe03841cf793dd2f90d10eda4b6dd34d
 
+Package: atomicparsley
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: @termux
+Version: 1:20240608.083822.1ed9031-2
+Homepage: https://github.com/wez/atomicparsley
+Depends: libc++, zlib
+Description: Read, parse and set metadata of MPEG-4 and 3gp files
+Filename: ./atomicparsley_1:20240608.083822.1ed9031-2_aarch64.deb
+Size: 107532
+MD5sum: 24e37ca0d4f19ec3e87cfcd6522c0f63
+SHA1: 6009b40f42beaa1a7e790ba9197569cfbd87d47d
+SHA256: c22467d32734db98252328800832447b83347418c24cde7b5d604c011909aea1
+
+Package: atomvm
+Architecture: aarch64
+Installed-Size: 704
+Maintainer: @termux
+Version: 1:0.6.6-2
+Homepage: https://github.com/bettio/AtomVM
+Depends: zlib
+Description: The minimal Erlang VM implementation
+Filename: ./atomvm_1:0.6.6-2_aarch64.deb
+Size: 175148
+MD5sum: e4f5db41f28001a6d1870411c10319ad
+SHA1: 8a16fb3193863f37716963186165a2ff1a7d6c76
+SHA256: 7691f607dd9237dc30684f3ab5856f7ad6374a29d96766d4e9b88eb18a801740
+
 Package: autoconf
 Architecture: all
 Installed-Size: 3680
@@ -1417,6 +1445,35 @@ Size: 305196
 MD5sum: 518a570568e6df1e30da564a6df6a91a
 SHA1: ab37c54ed48ca885b9d1f78b039d7cad4e135db6
 SHA256: c77b50813082b43c8aea06a94ce48deb759d253f0c14db6b564eb2117205e09c
+
+Package: lhasa-static
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 0.6.0-1
+Homepage: https://lhasa.soulsphere.org/
+Depends: lhasa (= 0.6.0-1)
+Description: Static libraries for lhasa
+Filename: ./lhasa-static_0.6.0-1_aarch64.deb
+Size: 20084
+MD5sum: 06d2c71cf10721d8d805102dfe5c6623
+SHA1: 31ed698f24c6cb96a9dd9537cb1d766ce0af0cdc
+SHA256: 79336582fece2984919f0289e12bcdb094f8d97f74ba6de929cf230416eb8f0c
+
+Package: lhasa
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 0.6.0-1
+Homepage: https://lhasa.soulsphere.org/
+Breaks: lhasa-dev
+Replaces: lhasa-dev
+Description: LHA compressor/decompressor
+Filename: ./lhasa_0.6.0-1_aarch64.deb
+Size: 34448
+MD5sum: 948ef079c7d565841bbafe5736a306c4
+SHA1: a1192db7f7848342f7973b10e062dda83c999943
+SHA256: 2a15bf4d1ef800b36c5617ec37ecb7c4089cc4983cd6321ed5bce0d03881471c
 
 Package: libandroid-execinfo-static
 Architecture: aarch64
@@ -5040,6 +5097,20 @@ Size: 2459924
 MD5sum: 530f89034df6bf290f6a883bc5171365
 SHA1: daabfe29e133448b26292ef006528526d4a79bea
 SHA256: 4924aeaf816fe96cffb8809cb66748e428958fd139c150dd8c6ad18e57406d0c
+
+Package: unrar
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: @termux
+Version: 7.3.1-1
+Homepage: https://www.rarlab.com/
+Depends: libandroid-support, libc++
+Description: Tool for extracting files from .rar archives
+Filename: ./unrar_7.3.1-1_aarch64.deb
+Size: 167368
+MD5sum: ecb3bac8970223fad54e6c5411ba49db
+SHA1: cfcdfcf0c4669b200c1cfe0e380b7c854804853b
+SHA256: f901733566fbedea864bafae4d883bd5017036dd4ffeec3cdd4e071ed7a1982c
 
 Package: unzip
 Architecture: aarch64
