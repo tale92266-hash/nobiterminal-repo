@@ -291,6 +291,157 @@ MD5sum: 429cc41fa57a9b720df9712181f2c87c
 SHA1: a7726bd2d9a1cf2545b39a57516b354267271b43
 SHA256: 05e7a40adc90a947d46aae36fd08fa82e23c358ab0cc54164d70f48f407dccac
 
+Package: alsa-utils-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.2.16-1
+Homepage: https://www.alsa-project.org
+Depends: alsa-utils (= 1.2.16-1)
+Description: Static libraries for alsa-utils
+Filename: ./alsa-utils-static_1.2.16-1_aarch64.deb
+Size: 25876
+MD5sum: b89c0449e4f4caab33862ee574be9bf6
+SHA1: 3ef3ac0b9f0b318ceda272adbec17cb0195feaa7
+SHA256: be0adead6ed58fea4eed429c13e74b86eb7f1dcbed382480ae9cf8690f695544
+
+Package: alsa-utils
+Architecture: aarch64
+Installed-Size: 2348
+Maintainer: @termux
+Version: 1.2.16-1
+Homepage: https://www.alsa-project.org
+Depends: ncurses, alsa-lib
+Description: The Advanced Linux Sound Architecture (ALSA) - utils
+Filename: ./alsa-utils_1.2.16-1_aarch64.deb
+Size: 1036600
+MD5sum: d953cd9700a415a51d1d36a61e65b39b
+SHA1: 69efdb0b7a460ca084876d1f6cc7ed6a562afed0
+SHA256: 3e10f63e7b8f52444ac17e3f52581040f66602572a33c941d362a76dcdfb9fa0
+
+Package: amber
+Architecture: aarch64
+Installed-Size: 4960
+Maintainer: @termux
+Version: 0.6.1-1
+Homepage: https://github.com/dalance/amber
+Breaks: amr, ambs
+Replaces: amr, ambs
+Description: A code search / replace tool
+Filename: ./amber_0.6.1-1_aarch64.deb
+Size: 900696
+MD5sum: ee6f67fadd5756e060fdd45d16c6bad3
+SHA1: 777ae657829111fbe722f0360a685fc23fa75e77
+SHA256: 78d86408f5805749824df57bc23963cfa0e82a445c84985e526e935140d3b2a6
+
+Package: amfora
+Architecture: aarch64
+Installed-Size: 16752
+Maintainer: @termux
+Version: 1.11.0-3
+Homepage: https://github.com/makew0rld/amfora
+Description: Aims to be the best looking Gemini client
+Filename: ./amfora_1.11.0-3_aarch64.deb
+Size: 4267952
+MD5sum: ef737f2240c1b94b21a05910e457ccda
+SHA1: ef38189a09021bda250bbf0e8ac76fa2386c4091
+SHA256: 71c23cc011cc90db3284f46e3256f6259a0a19bf51ee0a440a0981d26d546b23
+
+Package: android-tools
+Architecture: aarch64
+Installed-Size: 16720
+Maintainer: @termux
+Version: 37.0.0p1-4
+Homepage: https://developer.android.com/
+Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
+Description: Android platform tools
+Filename: ./android-tools_37.0.0p1-4_aarch64.deb
+Size: 2374336
+MD5sum: c1a883f06ba987829e803f6fff43e976
+SHA1: ddaae779218a7045ac9a7a76ed90bfc508a38217
+SHA256: 8f1cc302bc49c381af51d7677cb1ec5d8ee47107515870db691a7968620768d7
+
+Package: anewer
+Architecture: aarch64
+Installed-Size: 836
+Maintainer: @flosnvjx
+Version: 0.2.2-1
+Homepage: https://github.com/ysf/anewer
+Description: Append lines from stdin to a file if these lines do not present in that file (aHash-based uniq)
+Filename: ./anewer_0.2.2-1_aarch64.deb
+Size: 278712
+MD5sum: 519fbbe6eb7106992632fcb7c5d92650
+SHA1: f902977699c4a4a62f08dbf8dff4fd5fda768826
+SHA256: 900a85d0287174a7b420dc7451ebf6824fe31b06732140513feccb90e8802f48
+
+Package: angband
+Architecture: aarch64
+Installed-Size: 22872
+Maintainer: @termux
+Version: 4.2.6-1
+Homepage: https://rephial.org/
+Depends: ncurses
+Description: Dungeon exploration adventure game
+Filename: ./angband_4.2.6-1_aarch64.deb
+Size: 20420452
+MD5sum: 3d44c4aaa256aa6d8831fd5ecdd7c599
+SHA1: 70ad2688a80e6f5bdd11653dcda7c216e7523fd4
+SHA256: f1064a0e4157302de70dbdddcf668f8839f12d8d3a07ee336039fe8d1b47f952
+
+Package: angle-grinder
+Architecture: aarch64
+Installed-Size: 4176
+Maintainer: @termux
+Version: 0.19.6-2
+Homepage: https://github.com/rcoh/angle-grinder
+Description: Slice and dice logs on the command line
+Filename: ./angle-grinder_0.19.6-2_aarch64.deb
+Size: 1178928
+MD5sum: 43c2ad344f740077503249f96064f352
+SHA1: b9f76968d23248c05e7301342695cd2b39b1df38
+SHA256: 0828784ec16398be5e4de0665ea055bdf5281fb4cdafd0627d70193662755936
+
+Package: ansifilter
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 2.24-1
+Homepage: http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php
+Depends: libc++
+Description: Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
+Filename: ./ansifilter_2.24-1_aarch64.deb
+Size: 79944
+MD5sum: e88000facee7706ba10c863388749a3d
+SHA1: 243cc733a44ff31e5e02cf097629025dd3441bcd
+SHA256: 1086818eb31352fc70071cec8e4616b56ee41feac6b22c191d5665016cfbc5bf
+
+Package: ant
+Architecture: all
+Installed-Size: 4824
+Maintainer: @termux
+Version: 1.10.18-1
+Homepage: https://ant.apache.org/
+Depends: openjdk-21
+Description: Java based build tool like make
+Filename: ./ant_1.10.18-1_all.deb
+Size: 2801884
+MD5sum: 7b581208cfbae86fbb37d0e2e9f5460b
+SHA1: 453c83fb488d99dd3fd606d7b5073521d35c5a2f
+SHA256: ce80ba2c448d23865e2fd9cee98e4323d48ce2c8d6850b5e994fa439dfdb9604
+
+Package: antibody
+Architecture: aarch64
+Installed-Size: 5000
+Maintainer: @termux
+Version: 6.1.1-5
+Homepage: https://github.com/getantibody/antibody
+Description: The fastest shell plugin manager
+Filename: ./antibody_6.1.1-5_aarch64.deb
+Size: 1342736
+MD5sum: 6310e476b478cbf5bc21324e8519a970
+SHA1: 2a6801de7663fccf0e4593e04fa10cf899c061e9
+SHA256: 607d3321ba31e0c07120dc3029a9e03aa36a872993e5a2a309499dbfc8b87d79
+
 Package: aom-tools
 Architecture: aarch64
 Installed-Size: 860
@@ -399,6 +550,148 @@ Size: 1042848
 MD5sum: e2a169f04578033d0d27348f02282369
 SHA1: 7c4bcb9101c31966ae33a9072750b6a1a3cb9f6e
 SHA256: f76b112efadb207aad8660dc06e95d0bfe03841cf793dd2f90d10eda4b6dd34d
+
+Package: aspell-de
+Architecture: all
+Installed-Size: 2160
+Maintainer: @termux
+Version: 1:20161207.7.0-1
+Homepage: http://aspell.net/
+Depends: aspell
+Description: German dictionary for aspell
+Filename: ./aspell-de_1:20161207.7.0-1_all.deb
+Size: 749036
+MD5sum: abe7cb64b59cc7d3b45d3ce631f398e5
+SHA1: 0d0cac29b3566ea6065234845f466127df16ffe2
+SHA256: 94db4d1772690ef7db31d4dc052158321a5558b55160bcd009bea98690ab0796
+
+Package: aspell-en
+Architecture: all
+Installed-Size: 4476
+Maintainer: @termux
+Version: 1:2026.02.25-1
+Homepage: http://aspell.net/
+Depends: aspell
+Description: English dictionary for aspell
+Filename: ./aspell-en_1:2026.02.25-1_all.deb
+Size: 1122452
+MD5sum: b492c3a0bcfd2fdd337428557e45bca6
+SHA1: cfb99deb4b70ab688fb7eab59e7687cf02c9d117
+SHA256: 230c1afd1bc828261424c4f19f18daba2dddc2282b03cbbc101cc02276e0a2d6
+
+Package: aspell-es
+Architecture: all
+Installed-Size: 1504
+Maintainer: @termux
+Version: 2:1.11-2-1
+Homepage: http://aspell.net/
+Depends: aspell
+Description: Spanish dictionary for aspell
+Filename: ./aspell-es_2:1.11-2-1_all.deb
+Size: 452556
+MD5sum: 83246e750a3952337a31841cda1db974
+SHA1: 06165355977884fc004f400219d33ceeea6deded
+SHA256: 5b9e8b86f9f62242c0db854a97274b2d4be1cbea5da263b3744550996aef0355
+
+Package: aspell-fr
+Architecture: all
+Installed-Size: 17564
+Maintainer: @termux
+Version: 2:0.50-3-2
+Homepage: http://aspell.net/
+Depends: aspell
+Description: French dictionary for aspell
+Filename: ./aspell-fr_2:0.50-3-2_all.deb
+Size: 4367840
+MD5sum: fd757c3f5baf00964ea0dfa6496a74f2
+SHA1: 7d7f4834added320f4dbb42430dbda534fe3e8b6
+SHA256: 17b101f0c122db80af5eb71595daccb3c463bcf9558513eb336c8ebe9cf12f57
+
+Package: aspell-static
+Architecture: aarch64
+Installed-Size: 3184
+Maintainer: @termux
+Version: 0.60.8.2-1
+Homepage: http://aspell.net
+Depends: aspell (= 0.60.8.2-1)
+Description: Static libraries for aspell
+Filename: ./aspell-static_0.60.8.2-1_aarch64.deb
+Size: 325992
+MD5sum: a5b8dd67c3a47b418fb7380bf3eac950
+SHA1: c68ea88f893bb79839de293a3a89142434c916f2
+SHA256: b0c77f953cb3b462aaffa6a644a26b47a95113b641cd757ce1ac5cd64d3ed069
+
+Package: aspell
+Architecture: aarch64
+Installed-Size: 2620
+Maintainer: @termux
+Version: 0.60.8.2-1
+Homepage: http://aspell.net
+Depends: libc++
+Description: A free and open source spell checker designed to replace Ispell
+Filename: ./aspell_0.60.8.2-1_aarch64.deb
+Size: 349304
+MD5sum: 69be328d07dad98cfaf5242d3a042b2c
+SHA1: cd43dad204d535382025febbc28171f248c4f293
+SHA256: fb59c1772350b83cf7849a0012f3b05254849399b0afd1a0f681891bcc778388
+
+Package: astyle
+Architecture: aarch64
+Installed-Size: 980
+Maintainer: @termux
+Version: 3.6.19-1
+Homepage: https://astyle.sourceforge.net/
+Description: Source code formatter for C-like programming languages
+Filename: ./astyle_3.6.19-1_aarch64.deb
+Size: 201468
+MD5sum: c27d85eab3e287054261d4105c0fd5af
+SHA1: 3a64279a78c7acfed292b311e2caf66c00507cda
+SHA256: a471944f9caefa82d30cb7ca940b6a3ee931122c88967e0566ad558b95e602f3
+
+Package: asymptote
+Architecture: aarch64
+Installed-Size: 7452
+Maintainer: @termux
+Version: 3.15-1
+Homepage: https://asymptote.sourceforge.io/
+Depends: fftw, libc++, libcurl, libtirpc, zlib, ncurses, readline
+Description: A powerful descriptive vector graphics language for technical drawing
+Filename: ./asymptote_3.15-1_aarch64.deb
+Size: 1736200
+MD5sum: bab83570bc5d3b0ed54e78eb2b990847
+SHA1: 862959c1fa0d502571cb4bcc7fd8cd1cd5a758a3
+SHA256: 504fe3bc3cfab84f62208b82102e07b2636fc393fc0cfecc311329d7dfb23374
+
+Package: at-spi2-core
+Architecture: aarch64
+Installed-Size: 3388
+Maintainer: @termux
+Version: 2.62.1-1
+Homepage: https://wiki.gnome.org/Accessibility
+Breaks: at-spi2-atk (<< 2.46.0), atk (<< 2.46.0), libatk
+Depends: dbus, glib, libx11, libxi, libxtst
+Replaces: at-spi2-atk (<< 2.46.0), atk (<< 2.46.0), libatk
+Provides: at-spi2-atk, atk
+Description: Assistive Technology Service Provider Interface (AT-SPI)
+Filename: ./at-spi2-core_2.62.1-1_aarch64.deb
+Size: 355672
+MD5sum: 49fb0b82e3012608b3853ee22be4f30a
+SHA1: b9989802422a7640941acacc55cc1c96517a915e
+SHA256: 3c07afa58c3f5524e4eaf24b0abe4119bd51561d7746896731f24659ba5cb2e1
+
+Package: at
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 3.2.5-3
+Homepage: https://salsa.debian.org/debian/at
+Suggests: termux-services
+Description: AT and batch delayed command scheduling utility and daemon
+Filename: ./at_3.2.5-3_aarch64.deb
+Size: 31768
+MD5sum: c15e3021be099a10c97e0415f9362d5d
+SHA1: dd912c455e860aa531f25418bbfa29f856cbf3a5
+SHA256: 58fc19e13124367bf743faba70b3b1f87b2abd43b0cb05c3fe5bdaa571e49064
 
 Package: atomicparsley
 Architecture: aarch64
@@ -597,6 +890,32 @@ MD5sum: 1f00a99a04eb1716c24b35a922a01683
 SHA1: f53c589331b64b27ae84ae9710f65ab9fefe5669
 SHA256: a214d249b28ba56e4cdf422016be50a844592291f1ca860a5ff26ae2304bd8b9
 
+Package: barcode
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 0.99-6
+Homepage: https://www.gnu.org/software/barcode/
+Description: Tool to convert text strings to printed bars
+Filename: ./barcode_0.99-6_aarch64.deb
+Size: 39092
+MD5sum: e08c2613708f1c79870b0c4188e10fb8
+SHA1: 50e5279718b30bd22e122932cc8ca23919c25572
+SHA256: fcd6adfbfca98de19dc440568c265f405c3f40356950104d96e54c600407cb14
+
+Package: base16384
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 2.3.2-2
+Homepage: https://github.com/fumiama/base16384
+Description: Encode binary to printable utf16be
+Filename: ./base16384_2.3.2-2_aarch64.deb
+Size: 17216
+MD5sum: 52da874f27b002c053193232c3192034
+SHA1: 040c30b5f70a0a22a4c780611a82ec4a5b24454f
+SHA256: 5f51711c23cc98b4ac6889482759e40a0be88c087461917e1d06f21b05746d84
+
 Package: bash-completion
 Architecture: all
 Installed-Size: 2724
@@ -610,6 +929,20 @@ Size: 194276
 MD5sum: dccb1254de1a36319d69ce1e25c9eaeb
 SHA1: 3209a5bce639a287dbd34c797696de425b8044bf
 SHA256: 3966d14d7677bf225e61debe412ffb7778c4fa78ab7e9dc7e9ea410f3d54c1eb
+
+Package: bastet
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: @termux
+Version: 0.43.2-15
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: libc++, ncurses
+Description: Tetris clone with 'bastard' block-choosing AI
+Filename: ./bastet_0.43.2-15_aarch64.deb
+Size: 100852
+MD5sum: b1d50643eddb04e6c1d35d8b27b0c60c
+SHA1: eb93de071837e4e6abfaa92a34d90293616a1b1b
+SHA256: 8a096bb00163c15b9092e6257c17f2e19a59e5b07a3c581009d82fece7bc00d6
 
 Package: bat
 Architecture: aarch64
@@ -625,6 +958,20 @@ MD5sum: 9ee69a866d92f715209626d9523841ef
 SHA1: 2b2a5c7b6a933670fcdf7d59f164843d11596116
 SHA256: 34e39f80e22a56f8c020924d02d8bc8c78885bbe108218c87f11ec86cf0d782d
 
+Package: bc-gh
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: Gavin D. Howard <gavin@gavinhoward.com>
+Version: 7.0.3-2
+Homepage: https://git.gavinhoward.com/gavin/bc
+Depends: readline
+Description: Unix dc and POSIX bc with GNU and BSD extensions
+Filename: ./bc-gh_7.0.3-2_aarch64.deb
+Size: 88288
+MD5sum: a55b8a7f211aacd19fb319321b6aec34
+SHA1: 25680e045b3deab4c97988d8777695f528b6325b
+SHA256: a7590cc3cd86bf87a76435b4735dd57b8768a15e1869fc22af36ab0c21be29af
+
 Package: bc
 Architecture: aarch64
 Installed-Size: 252
@@ -638,6 +985,87 @@ Size: 76276
 MD5sum: 776379a0fbaba36f45b2d52dc1415626
 SHA1: 133aa6a0e9f29170b2e94f22f87664288148edaf
 SHA256: 00b64965bb44fb658a6547f9c1c00f4bafb2f3aa9920e7ef0d3f0909c4a34a71
+
+Package: bcal
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 2.6-1
+Homepage: https://github.com/jarun/bcal
+Depends: readline
+Description: Command-line utility for storage conversions and calculations
+Filename: ./bcal_2.6-1_aarch64.deb
+Size: 31572
+MD5sum: 28f0a6ba0961dede09d4421990358184
+SHA1: fabfacc2c9bfa93343a886c77eda03a6ef68525a
+SHA256: 79d205e745ca6a7d25a3642e0bc3df323118774f5d98d1f931d3dbb3aab8b1e2
+
+Package: bchunk
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 1.2.2-1
+Homepage: http://he.fi/bchunk/
+Description: Tool to convert .bin + .cue files to .iso files
+Filename: ./bchunk_1.2.2-1_aarch64.deb
+Size: 7600
+MD5sum: 36074bb7f33a3973903b437f6c2f4cbd
+SHA1: c3976eb4d35540278dfbc943f2b549f5568afe6d
+SHA256: 332635de2e360b511809033a0b9eb37d8cbcf481283dba00694e426594b56595
+
+Package: bdsup2sub
+Architecture: all
+Installed-Size: 428
+Maintainer: @termux
+Version: 4.0.1-2
+Homepage: https://github.com/mjuhasz/BDSup2Sub
+Depends: openjdk-21
+Description: A subtitle conversion tool for image based stream formats
+Filename: ./bdsup2sub_4.0.1-2_all.deb
+Size: 358772
+MD5sum: 86de596510aadc134ba9752bc31c967d
+SHA1: c13f09a047964459e82b50e456a50aa14d2bd9eb
+SHA256: 95b2fc13845637fcc740a3ae77ea4862f3b8c42e554b800319b0abd7b41fb633
+
+Package: beanshell
+Architecture: all
+Installed-Size: 388
+Maintainer: @termux
+Version: 3.0.0b1-1
+Homepage: https://github.com/beanshell/beanshell
+Depends: dash, termux-tools
+Description: Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java
+Filename: ./beanshell_3.0.0b1-1_all.deb
+Size: 345752
+MD5sum: 88e1ca71490c3ad41db4a0140f8baac3
+SHA1: 458b17addfd503e52ea38ef5c1262bd61a2b36bf
+SHA256: db4207c728ef8b1e2fa55fdb71cd7217042b9a36884a92452855044681e4a9c8
+
+Package: bear
+Architecture: aarch64
+Installed-Size: 4092
+Maintainer: Nguyen Khanh @nguynkhn
+Version: 4.2.3-1
+Homepage: https://github.com/rizsotto/Bear
+Description: Bear is a tool that generates a compilation database for clang tooling.
+Filename: ./bear_4.2.3-1_aarch64.deb
+Size: 1218864
+MD5sum: 1667234d4f8eea7317fe116bbe0eecff
+SHA1: d61396ab6bb7f7ba0a17805a454f2c980a67a1af
+SHA256: 379a82636b48b79794caf3badd2b52d9627e834c9cd8a7e818a457a487e61d23
+
+Package: bed
+Architecture: aarch64
+Installed-Size: 3980
+Maintainer: @termux
+Version: 0.2.8-2
+Homepage: https://github.com/itchyny/bed
+Description: Binary editor written in GO
+Filename: ./bed_0.2.8-2_aarch64.deb
+Size: 1016064
+MD5sum: 8615cb115410f0aefe04c557f59897d0
+SHA1: 785119c4915a0b078d8f7dcfa795c285d2e21857
+SHA256: 6853859fde6363b304bfad5a2076e3581e260e6a08ef2668bba077d4ca34d02f
 
 Package: binutils-cross
 Architecture: aarch64
@@ -1169,6 +1597,35 @@ Size: 117368
 MD5sum: 13a897f40be443e151601df885d18bc3
 SHA1: e60a1499bf44de9f34441403a2fbfaf23e66b771
 SHA256: 2fa3e0fae566d4fe3d5791a1bff84f929ff047cdd96db532400a144586a4e0b8
+
+Package: fftw-static
+Architecture: aarch64
+Installed-Size: 6920
+Maintainer: @termux
+Version: 3.3.11-1
+Homepage: http://www.fftw.org/
+Depends: fftw (= 3.3.11-1)
+Description: Static libraries for fftw
+Filename: ./fftw-static_3.3.11-1_aarch64.deb
+Size: 993652
+MD5sum: fbd9ebc40f66f493ece09100b3d9846e
+SHA1: 68831ac27bf3bf95410c75990c801b688bb42530
+SHA256: 81e28d0102b5704a5e427479603929191cc7be64ad139133d59129315284a0c0
+
+Package: fftw
+Architecture: aarch64
+Installed-Size: 3412
+Maintainer: @termux
+Version: 3.3.11-1
+Homepage: http://www.fftw.org/
+Breaks: fftw-dev
+Replaces: fftw-dev
+Description: Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
+Filename: ./fftw_3.3.11-1_aarch64.deb
+Size: 1004968
+MD5sum: 030f62cf142e99daa467d120789f0c23
+SHA1: 5d9f21b976a88749eaf61e5f269ae01999f73851
+SHA256: 3ae7bec98717b7d6c9dd36e9ae5ff42faf90a25313fade7504dce4bbb38eac06
 
 Package: file
 Architecture: aarch64
