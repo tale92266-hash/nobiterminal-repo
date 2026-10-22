@@ -1,3 +1,45 @@
+Package: abduco
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 0.6-5
+Homepage: https://www.brain-dump.org/projects/abduco/
+Depends: dvtm
+Description: Clean and simple terminal session manager
+Filename: ./abduco_0.6-5_aarch64.deb
+Size: 10188
+MD5sum: 27c442de18bd4b44c4367176d5e0eeda
+SHA1: 4c92ba0f95c154ea5b6b2f31eaeec406184a6c2d
+SHA256: c468bcbfd642eb9acc961d4be4941a9d0cb9f192cb73e673a831a9c52bd8de10
+
+Package: abook
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 0.6.2-2
+Homepage: http://abook.sourceforge.net/
+Depends: libandroid-support, ncurses, readline
+Description: Abook is a text-based addressbook program designed to use with mutt mail client
+Filename: ./abook_0.6.2-2_aarch64.deb
+Size: 46164
+MD5sum: 70617895bd527e14c55294c33a11e75f
+SHA1: 1ab8883759878660bd4503f8e994c4646172b9d5
+SHA256: 3c446edc9143e5715dacd80272c37c3336f5b30dccca1cac531be96660c60086
+
+Package: abootimg
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 0.6-4
+Homepage: https://gitlab.com/ajs124/abootimg
+Depends: util-linux, libblkid
+Description: Pack or unpack android boot images
+Filename: ./abootimg_0.6-4_aarch64.deb
+Size: 7948
+MD5sum: 6d099f3cc3c469176b96cdf9ff236665
+SHA1: 9ea34c44d4b2526ecc0e662a0ac3ab7831768124
+SHA256: 4ea2fcadd04c6b3327edad9c57007420c7c1742842394ae7d2633561c03e46a5
+
 Package: abseil-cpp
 Architecture: aarch64
 Installed-Size: 9576
@@ -12,6 +54,61 @@ Size: 1214152
 MD5sum: be3fe545eb0839a27686288ffdcf5ee1
 SHA1: 65169d96a5f7dcb838550b8c65eff850bb7a554d
 SHA256: 2c72fbab024ca80cd069cb66f7b8665a61c36a7686bdca852fafdc7406d19b49
+
+Package: ack-grep
+Architecture: all
+Installed-Size: 208
+Maintainer: @termux
+Version: 3.10.0-1
+Homepage: https://beyondgrep.com/
+Depends: perl
+Description: Tool like grep optimized for programmers
+Filename: ./ack-grep_3.10.0-1_all.deb
+Size: 42252
+MD5sum: 176c7b0f5d9b3cba3fb0d4c4d9375b00
+SHA1: 26a8b3f32f36204e84596e709417baf76aa74b69
+SHA256: 897a65570d1a5a1113d3578610a9b2618ae8e42998357bc54797451f5c6e4a98
+
+Package: acr
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: @termux
+Version: 2.2.8-1
+Homepage: https://github.com/radareorg/acr
+Depends: dash
+Description: A fully compatible autoconf replacement
+Filename: ./acr_2.2.8-1_aarch64.deb
+Size: 52924
+MD5sum: 944f2d3884e937107e4ac82d9186ac07
+SHA1: fee6a3367ed95121d008eadfcc902b62936bd2c1
+SHA256: 9ad06d941b9524a7dd024b3d86e07ce8e9abe1b99a46541068bcd6f710fdd8fc
+
+Package: ada
+Architecture: aarch64
+Installed-Size: 1284
+Maintainer: @termux
+Version: 4.0.0-1
+Homepage: https://github.com/ada-url/ada
+Depends: libc++
+Description: WHATWG-compliant and fast URL parser written in modern C++
+Filename: ./ada_4.0.0-1_aarch64.deb
+Size: 251284
+MD5sum: b26feb62565c4f05ceab182bb8a241f4
+SHA1: cbc3e8047430600c0e79f4c8c017e2e708c118f8
+SHA256: 0012252371a86f65c644846f417e3b25205f52dda3d670683c4fa0b9854f8516
+
+Package: adms
+Architecture: aarch64
+Installed-Size: 704
+Maintainer: @termux
+Version: 2.3.7-2
+Homepage: https://github.com/qucs/adms
+Description: A code generator for the Verilog-AMS language
+Filename: ./adms_2.3.7-2_aarch64.deb
+Size: 155592
+MD5sum: c2dc46daa55d1ff284f61a6d4d980b19
+SHA1: 13b16eedf127cdc483f98081bcfd57c10bfe710b
+SHA256: 26cc4143eebfbeabde11fd3d87018a92c32ada851ecf9606dee3deab37265a47
 
 Package: alsa-lib
 Architecture: aarch64
@@ -473,6 +570,20 @@ MD5sum: 326d24ba936236f05b2338e27a224ff1
 SHA1: b1c5c093781918fd01d94d52d7e25c9f17b4cf88
 SHA256: 2531d199a8f151836ca1969d299167c19b0db7eacf767196f8959f6d447e9d76
 
+Package: dvtm
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 0.15-5
+Homepage: https://github.com/martanne/dvtm
+Depends: ncurses
+Description: Terminal tiling window manager
+Filename: ./dvtm_0.15-5_aarch64.deb
+Size: 25212
+MD5sum: e46da3d6f20bb5bc05844fc7fe0af614
+SHA1: 62a7692c713cef136cd1d8b1a15d7b9f30659846
+SHA256: 1d70b7dbaf8abc9e3e62f07f4e7f5738a0a0f17de562d932e32259c172f82729
+
 Package: fd
 Architecture: aarch64
 Installed-Size: 3244
@@ -929,6 +1040,22 @@ Size: 38124832
 MD5sum: e73a758106cf514a3419622f9a7a19da
 SHA1: b92ed49bdd1d02c37756d9eada11b661d810c1bd
 SHA256: 1c6d383cf17ec3d14373b14ce62a612aafaa16c3a78e503e14bfb24a9ddd3d87
+
+Package: googletest
+Architecture: aarch64
+Installed-Size: 1940
+Maintainer: @termux
+Version: 1.18.0-1
+Homepage: https://github.com/google/googletest
+Depends: libc++
+Conflicts: libgtest
+Replaces: libgtest
+Description: Google C++ testing framework
+Filename: ./googletest_1.18.0-1_aarch64.deb
+Size: 356864
+MD5sum: 5c44e137bebc70d530566bb22eb16b7b
+SHA1: 1e6b3d2595f8fa7ca3a4b11db281ea41b63a6da8
+SHA256: 24e29fede13c90ef0eccd6957ae43044fe12ae686adffb41038356d93249aea7
 
 Package: gpgv
 Architecture: aarch64
@@ -2372,6 +2499,23 @@ Size: 103356
 MD5sum: f08f9b17f9f51cef42abdbac66fbbcb9
 SHA1: ab26bdbf0d846d4f6554d1aa6dab91e72e033392
 SHA256: 08caa706f975712357b449484a854e0197f12ae6653ee7f14c01bac47eedf7c0
+
+Package: libprotobuf
+Architecture: aarch64
+Installed-Size: 9516
+Maintainer: @termux
+Version: 2:36.2-2
+Homepage: https://github.com/protocolbuffers/protobuf
+Breaks: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Depends: abseil-cpp, libc++, zlib
+Conflicts: protobuf-static
+Replaces: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Description: Protocol buffers C++ library
+Filename: ./libprotobuf_2:36.2-2_aarch64.deb
+Size: 1433368
+MD5sum: 3709855316dfd521ec47e749faf7df16
+SHA1: 7e87575f76c93b4b5b435cc7ba6e055d0e0e1389
+SHA256: 59a7f8083200f1775aafa26daac4d32b44d3d13d2ec573e99686cae74312e85b
 
 Package: librav1e-static
 Architecture: aarch64
@@ -4147,6 +4291,20 @@ Size: 6267056
 MD5sum: 1ede6418ff214736da6820f2b43f0a30
 SHA1: c08c6d27dfd4af9e57431c03128168263ecc2773
 SHA256: 5e8d03aac63a9f9160c7077e4b246fedc5239ff39e83fdf19f39fe270872b5cb
+
+Package: protobuf
+Architecture: aarch64
+Installed-Size: 6044
+Maintainer: @termux
+Version: 2:36.2-2
+Homepage: https://github.com/protocolbuffers/protobuf
+Depends: libprotobuf (= 2:36.2-2)
+Description: Compiler for protocol buffer definition files
+Filename: ./protobuf_2:36.2-2_aarch64.deb
+Size: 1218456
+MD5sum: 92dd28ade568fc1af626b243ccd6aa92
+SHA1: 01dc6bdb6477b63561c911f08102681e9bb3f93f
+SHA256: 957c6fdd172e960de7197d94b438bb3b5fc4e77306eae4210b76a98860634a41
 
 Package: psmisc
 Architecture: aarch64
