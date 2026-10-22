@@ -1,3 +1,142 @@
+Package: 0verkill
+Architecture: aarch64
+Installed-Size: 3156
+Maintainer: @termux
+Version: 1:0.16-2
+Homepage: https://github.com/hackndev/0verkill
+Description: Bloody 2D action deathmatch-like game in ASCII-ART
+Filename: ./0verkill_1:0.16-2_aarch64.deb
+Size: 163044
+MD5sum: 6f9f15acca2abbeb1af36ac1023be984
+SHA1: 74e588a4e60fde8145cc376389d488fa2f75f868
+SHA256: e17cfed35842f67fd0fa75a4857098136933ccf8781f7b59a398e22b167d15f7
+
+Package: 2048-c
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 1:1.0.5-1
+Homepage: https://github.com/mevdschee/2048.c
+Description: Console version of the game '2048' for GNU/Linux
+Filename: ./2048-c_1:1.0.5-1_aarch64.deb
+Size: 6184
+MD5sum: 9b83f4082f61df33296c527170294158
+SHA1: bc820f78498931e5c5a9563dfd1894aac4e5284c
+SHA256: d505ea50bfedfb874ca26707dafb7ff986526c15a284c929883addd893909fca
+
+Package: 2ping
+Architecture: all
+Installed-Size: 288
+Maintainer: @termux
+Version: 4.6.1-2
+Homepage: https://www.finnie.org/software/2ping/
+Depends: python, python-pip
+Description: A bi-directional ping utility
+Filename: ./2ping_4.6.1-2_all.deb
+Size: 35080
+MD5sum: 211de7671b109029f297da0c7de10001
+SHA1: 3af35adb53419b6c2a8070a5fe7693ce6f107072
+SHA256: fe53bf37b3a2df2afebb7ea39edb9c4ec5f2f6fb49dce2bb9e75deb6af710832
+
+Package: 6tunnel
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.14-1
+Homepage: https://github.com/wojtekka/6tunnel
+Description: Allows you to use services provided by IPv6 hosts with IPv4-only applications and vice-versa
+Filename: ./6tunnel_0.14-1_aarch64.deb
+Size: 9708
+MD5sum: dd563d9a7940bbfca157eb6e37869d10
+SHA1: c262e94b88ae8e67d8aee8517b6f7a426b4c581b
+SHA256: 24a1806cce779be1dcdea6cd40c555e6b4be297e0ed14090c3e0aec698f397d9
+
+Package: 7zip
+Architecture: aarch64
+Installed-Size: 9764
+Maintainer: @termux
+Version: 26.05-1
+Homepage: https://www.7-zip.org
+Conflicts: p7zip
+Replaces: p7zip
+Provides: p7zip
+Description: 7-Zip file archiver with a high compression ratio
+Filename: ./7zip_26.05-1_aarch64.deb
+Size: 1557288
+MD5sum: d249f5ee5a5d312802519cc3d314d635
+SHA1: d09f0786d92bae0abbf9a0caa72e3b54a49fa5d1
+SHA256: 0ddcef6e8a876750ea379b6576bf100a7560f57cca01027157a0b0515006e6a2
+
+Package: 8086tiny
+Architecture: aarch64
+Installed-Size: 1528
+Maintainer: @termux
+Version: 1.25-6
+Homepage: https://github.com/adriancable/8086tiny
+Depends: bash, coreutils, ncurses
+Description: A PC XT-compatible emulator/virtual machine
+Filename: ./8086tiny_1.25-6_aarch64.deb
+Size: 1199252
+MD5sum: 09cb7ba7193bd92597724b4c777434e2
+SHA1: 215ae1d9b2c92c7252cfbbdc024dac8ed6958352
+SHA256: 51c4c0227d8c2ce23971a71a6ba7ee8e6d74a40984f08eb3f8cf440603c91400
+
+Package: aalib-static
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 1.4rc5-14
+Homepage: https://sourceforge.net/projects/aa-project/
+Depends: aalib (= 1.4rc5-14)
+Description: Static libraries for aalib
+Filename: ./aalib-static_1.4rc5-14_aarch64.deb
+Size: 37016
+MD5sum: 305f05a1bf2e45a1159ebd8ed7d2e001
+SHA1: 8f8ee287d838ff1a63dfbb505b7f56c94065a90c
+SHA256: 30c8caff20620113a583e18a1bc0af31171efd4b127e000079debb3687e7ad16
+
+Package: aalib
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: @termux
+Version: 1.4rc5-14
+Homepage: https://sourceforge.net/projects/aa-project/
+Depends: ncurses
+Description: A portable ASCII art graphic library
+Filename: ./aalib_1.4rc5-14_aarch64.deb
+Size: 110340
+MD5sum: 4658a146791fa1a4434b0d3180c829c2
+SHA1: db77b4673a459b23b36cd3ef40ae9cbeaa735d6a
+SHA256: 30f8c624a254284f7e98635244282ab94b5eab19d97a401047ed66359f2b36da
+
+Package: aapt2
+Architecture: aarch64
+Installed-Size: 3540
+Maintainer: @termux
+Version: 16.0.0.4-5
+Homepage: https://github.com/termux/android-build-tools
+Depends: abseil-cpp, libprotobuf, fmt, libc++, libexpat, libpng, libzopfli, zlib
+Description: AAPT2 (Android Asset Packaging Tool)
+Filename: ./aapt2_16.0.0.4-5_aarch64.deb
+Size: 963836
+MD5sum: f777d641ea317906b15538033b1ff7f8
+SHA1: d744ad78adde558a7b6098c971926b91852b239b
+SHA256: ae7d51b9b10435ad1000886baf08da4ab6d5fe78a93027d3e9b885f427f1abc8
+
+Package: aapt
+Architecture: aarch64
+Installed-Size: 1588
+Maintainer: @termux
+Version: 16.0.0.4-5
+Homepage: https://github.com/termux/android-build-tools
+Depends: fmt, libc++, libexpat, libpng, libzopfli, zlib
+Description: Android Asset Packaging Tool
+Filename: ./aapt_16.0.0.4-5_aarch64.deb
+Size: 449056
+MD5sum: 8f9345ae970c9e3ef16dbaafd54d155d
+SHA1: f1cb332724d72a1730908fd24475a255d38863ad
+SHA256: 7b4e49a96d11dad52cf6ae5eb121edef04bbd697fe6151c4429b32c176b77b8a
+
 Package: abduco
 Architecture: aarch64
 Installed-Size: 80
@@ -109,6 +248,20 @@ Size: 155592
 MD5sum: c2dc46daa55d1ff284f61a6d4d980b19
 SHA1: 13b16eedf127cdc483f98081bcfd57c10bfe710b
 SHA256: 26cc4143eebfbeabde11fd3d87018a92c32ada851ecf9606dee3deab37265a47
+
+Package: aidl
+Architecture: aarch64
+Installed-Size: 1784
+Maintainer: @termux
+Version: 16.0.0.4-5
+Homepage: https://github.com/termux/android-build-tools
+Depends: googletest, fmt, libc++, libexpat, libpng, libzopfli, zlib
+Description: Android Interface Definition Language (AIDL)
+Filename: ./aidl_16.0.0.4-5_aarch64.deb
+Size: 488364
+MD5sum: 80ab43e0f274128099952c9167a306c2
+SHA1: cce3920b1a843e4cb1be31bbf78a086f9232e224
+SHA256: aaca00943041e07a0f9315e6b10d42566229cdc42f9c1991a3951640b39d2325
 
 Package: alsa-lib
 Architecture: aarch64
@@ -683,6 +836,20 @@ Size: 201868
 MD5sum: 15da30c3bb6c120d3d379719bf6f51e0
 SHA1: 36c36428086f78a2f4c1e0d00da77ff2a05ea1e2
 SHA256: 250b72fd8e2a12600cdc5c46b55e42bc2db2c63e3d6b5e6ea236bb5117e081ae
+
+Package: fmt
+Architecture: aarch64
+Installed-Size: 876
+Maintainer: @termux
+Version: 1:12.2.0-1
+Homepage: https://fmt.dev/latest/index.html
+Depends: libc++
+Description: Open-source formatting library for C++
+Filename: ./fmt_1:12.2.0-1_aarch64.deb
+Size: 183644
+MD5sum: 47bba14007c4e1b50d965bef3094a56d
+SHA1: 8506c5de817702dc4afb8f4d90c3bbdafe619854
+SHA256: 9f4f3da5c2af6da8f2c5e7e788148bab6f6be612a010d325048ff91f2c4e6178
 
 Package: fontconfig-static
 Architecture: aarch64
@@ -3324,6 +3491,22 @@ MD5sum: c68ad96ef5a27775b730f462fb6e7f99
 SHA1: 893b8c5092f53cdb8ffb5aac10458c9d13b3251f
 SHA256: 0777f24fcb3d3a3ec452199a5b8c06e5394f63650170bf87c4b98e2dfe30b02c
 
+Package: libzopfli
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: @termux
+Version: 1.0.3-6
+Homepage: https://github.com/google/zopfli
+Breaks: libzopfli-dev
+Depends: libc++
+Replaces: libzopfli-dev
+Description: New zlib compatible compressor library
+Filename: ./libzopfli_1.0.3-6_aarch64.deb
+Size: 118888
+MD5sum: 7c67de9953ed4f862179c805ec85b245
+SHA1: d9ecf1f888ea0d2d47719aa892c7eec20780a2dd
+SHA256: 3a87e5805fed6ac1929c2da4fde1db289626646c5da2a2101f7f5366e425a188
+
 Package: littlecms-static
 Architecture: aarch64
 Installed-Size: 652
@@ -4636,6 +4819,20 @@ MD5sum: 70ffe4f39c04f54a9e83af0ce1bcfdd1
 SHA1: 5eeefabad5e16b46d1559625c9d06665e7e2fc4a
 SHA256: 061dc7529a7be7c12ef4d1699109227962950ccfbe40743c52efcd36babbbad0
 
+Package: sysprop
+Architecture: aarch64
+Installed-Size: 484
+Maintainer: @termux
+Version: 16.0.0.4-5
+Homepage: https://github.com/termux/android-build-tools
+Depends: fmt, libc++, libprotobuf
+Description: Android sysprop generators
+Filename: ./sysprop_16.0.0.4-5_aarch64.deb
+Size: 97352
+MD5sum: b56f04aa9181e674d7316a49cf00d4f6
+SHA1: ddc0910a84ab60750d7b557b173673abbc437ee7
+SHA256: 66e72d0a187b74b7e7a3b71580371f582472be0a047b8851620635781f56e73e
+
 Package: termux-auth
 Architecture: aarch64
 Installed-Size: 80
@@ -5107,6 +5304,20 @@ Size: 63044
 MD5sum: 16921c6bba33c7d6a5d6d7c9b6b91149
 SHA1: daa5b226d6762380192beb6ee92d1486f7c1fce0
 SHA256: dd1c5a4e587ce1f479da06b957192b00a87f8f54fbc9d596fb14044c0d0f4218
+
+Package: zopfli
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1.0.3-6
+Homepage: https://github.com/google/zopfli
+Depends: libzopfli (= 1.0.3-6)
+Description: New zlib compatible compressor tools
+Filename: ./zopfli_1.0.3-6_aarch64.deb
+Size: 22484
+MD5sum: 4e97cbd4c2ced6cf1126af8db6ba0e67
+SHA1: 861b591ed30d265a9123ab9837709675f81f831b
+SHA256: 0991f1fa280fbbd34db6c318fea30a373069524d132cab9aa3b542026753191f
 
 Package: zstd
 Architecture: aarch64
