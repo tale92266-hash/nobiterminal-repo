@@ -456,6 +456,36 @@ MD5sum: 530cb8eee6d230ee5836538c996593f9
 SHA1: 1e4b48510b8649c5a9f073e759a7bc862fcdf801
 SHA256: a04ba3d2463a28f1e79d7308bcab65d691bb283dc68cd397c0ae387b0c1282d3
 
+Package: aosp-libs
+Architecture: aarch64
+Installed-Size: 38560
+Maintainer: @termux
+Version: 9.0.0-r76-5
+Homepage: https://source.android.com/
+Breaks: bionic-host
+Depends: resolv-conf
+Replaces: bionic-host
+Description: bionic libc, libicuuc, liblzma, zlib, and boringssl for package builder and termux-docker
+Filename: ./aosp-libs_9.0.0-r76-5_aarch64.deb
+Size: 9741824
+MD5sum: db27f465bef7c7a70a1f6ece2e823373
+SHA1: 478175e186844925231a4a739bcdb85672c2bea4
+SHA256: 91c34806555fbb104d21138086d4ed02a19c055ec9d5b20ed3c2378240765050
+
+Package: aosp-utils
+Architecture: aarch64
+Installed-Size: 1320
+Maintainer: @termux
+Version: 9.0.0-r76-5
+Homepage: https://source.android.com/
+Depends: aosp-libs (= 9.0.0-r76-5)
+Description: AOSP-based mksh, toybox, grep and iputils for termux-docker
+Filename: ./aosp-utils_9.0.0-r76-5_aarch64.deb
+Size: 336468
+MD5sum: e3849a77061b91b39d66f178e4b94827
+SHA1: 38028e7e1bd88f17d2ab9910d1c9375480e8cbdb
+SHA256: 4a61b0d4d4a2e5bc34573784a6e9a76eaa0367880a872e32bdfa71e8d970c620
+
 Package: apache2
 Architecture: aarch64
 Installed-Size: 33152
@@ -1527,6 +1557,120 @@ MD5sum: c8b66a84415fe2a140947e29aba47131
 SHA1: bb4c90c001cb2194a1715d23fe81599ad3729107
 SHA256: c68d611e3f50687de36986a95947c409c51374d050be5c807dcf5803f6100a6f
 
+Package: btfs2
+Architecture: aarch64
+Installed-Size: 83340
+Maintainer: @termux
+Version: 4.1.0-2
+Homepage: https://www.bittorrent.com/btfs/
+Depends: libc++
+Conflicts: btfs
+Replaces: btfs
+Description: Decentralized file system integrating with TRON network and Bittorrent network
+Filename: ./btfs2_4.1.0-2_aarch64.deb
+Size: 23363860
+MD5sum: b09f50335e0acfd9964200309559d805
+SHA1: b7f5b5d6c49725bba718ee69f8966c8d5e8f8034
+SHA256: 25211533cd4e47e9902d2a1c39f24c8467a64430ee084d9c9c2cc662c6b7d4de
+
+Package: btrfs-progs
+Architecture: aarch64
+Installed-Size: 5588
+Maintainer: @termux
+Version: 7.1-1
+Homepage: https://btrfs.readthedocs.io/en/latest/
+Depends: e2fsprogs, liblzo, libuuid, util-linux, zlib, zstd
+Description: Utilities for Btrfs filesystem
+Filename: ./btrfs-progs_7.1-1_aarch64.deb
+Size: 989896
+MD5sum: 6425a0653cfd37d0d326667b440b287b
+SHA1: 671ae767c804a3f97a80e24b566fd77cfbb07713
+SHA256: d7b893e4b47979dbe8f45fe8984b3946ff51caa87d4fb03da3612fc32caed610
+
+Package: buf
+Architecture: aarch64
+Installed-Size: 48440
+Maintainer: @termux
+Version: 1.75.0-2
+Homepage: https://buf.build
+Description: A new way of working with Protocol Buffers
+Filename: ./buf_1.75.0-2_aarch64.deb
+Size: 10199424
+MD5sum: c6e6dc00135dbccad3765caa18e0a026
+SHA1: d20b7ed4cbcc2633831f6f106609b60604d580ff
+SHA256: 65474bdae9cd4f75fec07a72a3fdd5c1ca82a957008f9aa0e8d0a7105c2d843c
+
+Package: build-essential
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 4.1-1
+Homepage: https://github.com/termux/termux-packages
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Description: A metapackage that installs essential development tools
+Filename: ./build-essential_4.1-1_all.deb
+Size: 828
+MD5sum: cab9c52cd46a1c81d857ed0605b98d91
+SHA1: e0f98f74b651b79068c65c82ceceec80ec0754a6
+SHA256: 04e5965ae27f833c197b27aaaa424613ca59ac151ac687fe7702e9edcf9de9be
+
+Package: bun
+Architecture: aarch64
+Installed-Size: 92552
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.4.3-1
+Homepage: https://bun.com
+Description: Incredibly fast JavaScript runtime, bundler, test runner, and package manager
+Filename: ./bun_1.4.3-1_aarch64.deb
+Size: 26334496
+MD5sum: 87b57609aab23c3ba44bcf5d07a0587b
+SHA1: d235d4734af47f3cc157ad335b3e48ccebaaa252
+SHA256: c125eae5074557d2c07a670822abc0cadafc9b91cd6e87402b1bc70fde2573c7
+
+Package: busybox
+Architecture: aarch64
+Installed-Size: 1036
+Maintainer: @termux
+Version: 1.38.0-2
+Homepage: https://busybox.net/
+Depends: libandroid-selinux
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Filename: ./busybox_1.38.0-2_aarch64.deb
+Size: 472120
+MD5sum: 0aa150dc8de9d1dd7e76af8ef5a9773f
+SHA1: 7945fd94ddb7fc49c1cd48c89f6fea49f5af11e9
+SHA256: 5e79439308809fc6c24f08ef4e444d4b368574f16f25f94c785f2360fcdc4172
+
+Package: bvi
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.5.0-2
+Homepage: https://bvi.sourceforge.net/
+Depends: ncurses
+Description: Binary file editor based on vi
+Filename: ./bvi_1.5.0-2_aarch64.deb
+Size: 43824
+MD5sum: adc9b954dc347f4c937e450da870d432
+SHA1: e9c0f05e86fcc822c571d0bd3ec96f021c2b384e
+SHA256: 78dbe9daa8bee8db921880f592a64ece01ba6b27ad667b5c872fec11daf4d11d
+
+Package: byacc
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 20260126-1
+Homepage: https://invisible-island.net/byacc/
+Conflicts: bison
+Description: byacc is generally conceded to be the best yacc variant available
+Filename: ./byacc_20260126-1_aarch64.deb
+Size: 55244
+MD5sum: 441b3f833a2ade90c94f3aaac15072df
+SHA1: 6dd4746dc847734a63c4d77c5b03756102198295
+SHA256: 9ce3d8ccf1dad944ecf90aa2a6b89c34b71fd3a012fa3a983a05d3cfcba4f290
+
 Package: bzip2
 Architecture: aarch64
 Installed-Size: 124
@@ -1734,6 +1878,22 @@ Size: 25212
 MD5sum: e46da3d6f20bb5bc05844fc7fe0af614
 SHA1: 62a7692c713cef136cd1d8b1a15d7b9f30659846
 SHA256: 1d70b7dbaf8abc9e3e62f07f4e7f5738a0a0f17de562d932e32259c172f82729
+
+Package: e2fsprogs
+Architecture: aarch64
+Installed-Size: 5536
+Maintainer: @termux
+Version: 1.47.4-1
+Homepage: https://e2fsprogs.sourceforge.net
+Breaks: e2fsprogs-dev
+Depends: libarchive, libblkid, libuuid
+Replaces: e2fsprogs-dev
+Description: EXT 2/3/4 filesystem utilities
+Filename: ./e2fsprogs_1.47.4-1_aarch64.deb
+Size: 780320
+MD5sum: 57c618201da00821162d34a00a99b302
+SHA1: 994dd0bc1fefccf08ab8f7a6faf1496474e68f35
+SHA256: 849e34e8a1f0d2781496d0685394103d36c6da6c770edc91b25c64d68e735d1f
 
 Package: fd
 Architecture: aarch64
@@ -2297,6 +2457,20 @@ Size: 356864
 MD5sum: 5c44e137bebc70d530566bb22eb16b7b
 SHA1: 1e6b3d2595f8fa7ca3a4b11db281ea41b63a6da8
 SHA256: 24e29fede13c90ef0eccd6957ae43044fe12ae686adffb41038356d93249aea7
+
+Package: gperf
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: @termux
+Version: 3.3-2
+Homepage: https://www.gnu.org/software/gperf
+Depends: libc++
+Description: A perfect hash function generator
+Filename: ./gperf_3.3-2_aarch64.deb
+Size: 87216
+MD5sum: b5e75a9da1d8aa8c5723dc4ad3454f57
+SHA1: 3b3db583df672269b95fa003780169651ffd2c40
+SHA256: 0443ae6d685a9df579e0075cffb76cbbe2fe63d0d4a4b0e06e27c0555ed27837
 
 Package: gpgv
 Architecture: aarch64
@@ -3437,6 +3611,36 @@ Size: 10246076
 MD5sum: 52c927216e5a86c8370ed4fa89de83a5
 SHA1: 9bfb259944cf43ffe6f262b47c993e265d8b1e31
 SHA256: aefed69ee666b0b4f88bc8bc5cdf8f6e0fe9a229beb53abdceb93608df713a1f
+
+Package: libidn-static
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: @termux
+Version: 1.44-1
+Homepage: https://www.gnu.org/software/libidn/
+Depends: libidn (= 1.44-1)
+Description: Static libraries for libidn
+Filename: ./libidn-static_1.44-1_aarch64.deb
+Size: 42328
+MD5sum: aceb57d6baf9ec8a404499572efb6bdc
+SHA1: 2ab4094b48ec02a7327783a0432614526ea1cd04
+SHA256: 949c528383235672a466ff880f90cbbdca312aa827a6201f0d0f7564fb046341
+
+Package: libidn
+Architecture: aarch64
+Installed-Size: 720
+Maintainer: @termux
+Version: 1.44-1
+Homepage: https://www.gnu.org/software/libidn/
+Breaks: libidn-dev
+Depends: libiconv
+Replaces: libidn-dev
+Description: GNU Libidn library, implementation of IETF IDN specifications
+Filename: ./libidn_1.44-1_aarch64.deb
+Size: 171648
+MD5sum: 01ef8fc2cd76273f36cb49ce05913769
+SHA1: 03f5fb9772296fd484c8470c1057664e28e38018
+SHA256: 0f57a289f94337e59364323fd166073cb9bba75405cd3c90e5e7d013ea00ffb9
 
 Package: libjpeg-turbo-progs
 Architecture: aarch64
