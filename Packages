@@ -1334,6 +1334,143 @@ MD5sum: daba8fa875111c95a1b099d70d60bfa7
 SHA1: 4c855cc06174ed89b3c72138eb2e4b28c684beff
 SHA256: eac4afeaf9a960534c6c56584326d4bdc5fbc73579bbd56ecd422427ba84d042
 
+Package: bore
+Architecture: aarch64
+Installed-Size: 1816
+Maintainer: @termux
+Version: 0.6.0-2
+Homepage: https://github.com/ekzhang/bore
+Description: Bore is a simple CLI tool for making tunnels to localhost
+Filename: ./bore_0.6.0-2_aarch64.deb
+Size: 574936
+MD5sum: 6d591e22c3aac8957f5f3ea3ee53a3ef
+SHA1: 6b28e773c554930b033c05768fe8b9c13ea051e9
+SHA256: 2c5e92d1b85af688ae24ae337c1dc0599f96e560fe7f9476f8dbeb33930d65ee
+
+Package: borgbackup
+Architecture: aarch64
+Installed-Size: 2932
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.4.5-1
+Homepage: https://www.borgbackup.org/
+Depends: libacl, liblz4, openssl, python, python-pip, xxhash, zstd
+Description: Deduplicating and compressing backup program
+Filename: ./borgbackup_1.4.5-1_aarch64.deb
+Size: 581404
+MD5sum: 79868d45408a946ce8a1422f603a9c55
+SHA1: 4bf45deaa55440e1e4f8b4ec216ff5c50c36f346
+SHA256: e655530a083c2fedae78e964f02e450753b4f8b62094f87643e8c56981da9710
+
+Package: botan3-static
+Architecture: aarch64
+Installed-Size: 47296
+Maintainer: @termux
+Version: 3.13.0-1
+Homepage: https://botan.randombit.net/
+Depends: botan3 (= 3.13.0-1)
+Description: Static libraries for botan3
+Filename: ./botan3-static_3.13.0-1_aarch64.deb
+Size: 4547552
+MD5sum: faa744fadba0439e68e1e7721e46363c
+SHA1: 34d1d29f345c176eea4d89404f1e63e36c91586d
+SHA256: 7d377144d5f25b512a8f5e8cafcee15b4f473c331d6d283dd8b86fc14aae4744
+
+Package: botan3
+Architecture: aarch64
+Installed-Size: 11592
+Maintainer: @termux
+Version: 3.13.0-1
+Homepage: https://botan.randombit.net/
+Depends: libbz2, libc++, liblzma, libsqlite, zlib
+Description: Crypto and TLS for Modern C++
+Filename: ./botan3_3.13.0-1_aarch64.deb
+Size: 2501300
+MD5sum: 2335c96e217fe616170e13e1c6ba2f46
+SHA1: e60549f0183308e57e37adc0dc0ece5a3e4fff67
+SHA256: e19a0d42d92ed2f19f19b9c8415790ce831935a13285b9cfcbdb4e3124b9039a
+
+Package: boxes
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 2.3.2-1
+Homepage: https://boxes.thomasjensen.com/
+Depends: libunistring, ncurses, pcre2
+Description: A command line filter program which draws ASCII art boxes around your input text
+Filename: ./boxes_2.3.2-1_aarch64.deb
+Size: 69140
+MD5sum: a70089806e03b3b91d622914fc9d9134
+SHA1: 458dae2de1f96ad2f81a820ab7921226ec9cfe28
+SHA256: 37e52ad8c8bf948220ba91db9b0ea8d8eea81692657fada1365ccd1880cd0761
+
+Package: brainfuck-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 1:2.7.3-2
+Homepage: https://github.com/fabianishere/brainfuck
+Depends: brainfuck (= 1:2.7.3-2)
+Description: Static libraries for brainfuck
+Filename: ./brainfuck-static_1:2.7.3-2_aarch64.deb
+Size: 3580
+MD5sum: 84b2de3c75ed16403e9de4d699d88c93
+SHA1: 4205f767077a7565f7b4c5ca412c09f8c1acec1e
+SHA256: f715f4a69a92c2562581e9a0019549b595ebe483e90a270d9b6a8eb21639f529
+
+Package: brainfuck
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 1:2.7.3-2
+Homepage: https://github.com/fabianishere/brainfuck
+Depends: libedit
+Description: Brainfuck Interpreter written in C
+Filename: ./brainfuck_1:2.7.3-2_aarch64.deb
+Size: 7900
+MD5sum: 3372e15da3457146b6513a0dd716b560
+SHA1: 2cf2b26f64b031804623a058ca8201f31c225bbd
+SHA256: 3d4500dac7268ee9817b9ae9f89929226a954b13e2a3e34524fdd883d52e56ca
+
+Package: brogue
+Architecture: aarch64
+Installed-Size: 1412
+Maintainer: @termux
+Version: 1.15.1-2
+Homepage: https://sites.google.com/site/broguegame/
+Depends: ncurses
+Description: Roguelike dungeon crawling game (community edition)
+Filename: ./brogue_1.15.1-2_aarch64.deb
+Size: 243584
+MD5sum: 8bb3fd838672aed505409b5614b71cd5
+SHA1: f02b3569a0be7650e93e5622de6f1215ecebc0c7
+SHA256: 8a9e7644bb66c4fe630e83f326c7112e6c3f780ee23865f2e8ba2606b0d359d4
+
+Package: brook
+Architecture: aarch64
+Installed-Size: 25812
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 20270101-2
+Homepage: https://github.com/txthinking/brook
+Description: A cross-platform strong encryption and not detectable proxy. Zero-Configuration.
+Filename: ./brook_20270101-2_aarch64.deb
+Size: 6630604
+MD5sum: 4d0dec61d05f97f35385b45fe5b8fb52
+SHA1: 5cabf3fd5315d271a03b03303fccdcd2ec428391
+SHA256: 7094dc1abe5807c72d456917f71a8835f8655dac4ba51411de9021f7b83bdcbe
+
+Package: broot
+Architecture: aarch64
+Installed-Size: 12564
+Maintainer: @termux
+Version: 1.61.0-1
+Homepage: https://github.com/Canop/broot
+Description: A better way to navigate directories
+Filename: ./broot_1.61.0-1_aarch64.deb
+Size: 4434164
+MD5sum: 80118cb5acdde52065265195814d06ca
+SHA1: fe2acf36d5b71cf6add8d430ed9bdcf1dc368df7
+SHA256: 1f8331cbb2379bdd61bb5dad0a5a92e19d6d7588ae6ee3ca0b7e595f9bb69f49
+
 Package: brotli
 Architecture: aarch64
 Installed-Size: 1052
@@ -1348,6 +1485,33 @@ Size: 342532
 MD5sum: a15cf005507916cbbfe58402c97a31d4
 SHA1: bdfd3aad51663bd7d8bc074701f3561f16c65e84
 SHA256: db37986703511be40ce60036f389157c198dd14d66fe97256bc05b665c64c7aa
+
+Package: bsd-finger
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 0.17-4
+Homepage: https://packages.debian.org/sid/source/bsd-finger
+Description: User information lookup program
+Filename: ./bsd-finger_0.17-4_aarch64.deb
+Size: 17260
+MD5sum: 02b50b6e26a91d70516d24105da18a55
+SHA1: 24292f976c736a35b70ac55b4c7c8098f9ae8273
+SHA256: 50c489125aaa6f8cae8b4b41f5bc5ef14171e2800ea6379d3d818a5286a06657
+
+Package: bsd-games
+Architecture: aarch64
+Installed-Size: 872
+Maintainer: @termux
+Version: 1:3.3-2
+Homepage: https://www.polyomino.org.uk/computer/software/bsd-games/
+Depends: ncurses
+Description: Classic text mode games from UNIX folklore
+Filename: ./bsd-games_1:3.3-2_aarch64.deb
+Size: 204992
+MD5sum: 06dcc751e09c2708b46692dd76f49505
+SHA1: cd65fe0eef74ac00455f80be87b5191f82b9b7c2
+SHA256: 19327dd5458ea0b38d039c8d6dd7c9b2632afc0e4f38375336fb70f6890c8a5c
 
 Package: bsdtar
 Architecture: aarch64
