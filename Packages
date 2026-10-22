@@ -751,6 +751,77 @@ MD5sum: e4f5db41f28001a6d1870411c10319ad
 SHA1: 8a16fb3193863f37716963186165a2ff1a7d6c76
 SHA256: 7691f607dd9237dc30684f3ab5856f7ad6374a29d96766d4e9b88eb18a801740
 
+Package: atool
+Architecture: all
+Installed-Size: 184
+Maintainer: @termux
+Version: 0.39.0-4
+Homepage: https://www.nongnu.org/atool
+Depends: perl
+Recommends: arj, llvm, bzip2, cpio, file, gzip, lhasa, lzip, lzop, 7zip, tar, unrar, unzip, xz-utils, zip
+Suggests: bash-completion
+Description: tool for managing file archives of various types
+Filename: ./atool_0.39.0-4_all.deb
+Size: 34724
+MD5sum: afc62b68522c4bb57998b5b1ed441fbe
+SHA1: 14b3d3da93e6896b6be90274b4c9d77c106ee65f
+SHA256: efb58dcb3870722e66c48414b8e873ed27007ce0402209910f4ac620874098d5
+
+Package: atuin
+Architecture: aarch64
+Installed-Size: 44604
+Maintainer: @termux
+Version: 18.24.1-1
+Homepage: https://atuin.sh/
+Depends: openssl
+Description: Magical shell history
+Filename: ./atuin_18.24.1-1_aarch64.deb
+Size: 11028996
+MD5sum: 0240218bc2f4044ffb488382a83a939e
+SHA1: c67304b03ea8f2af2034958c3ef66c04962043ab
+SHA256: bcf59aed6c4b23e8abf6832f3055e7291034e01c89d5e7ce5dd168176ac9bdbe
+
+Package: audiofile-static
+Architecture: aarch64
+Installed-Size: 1564
+Maintainer: @termux
+Version: 0.3.6-1
+Homepage: https://audiofile.68k.org/
+Depends: audiofile (= 0.3.6-1)
+Description: Static libraries for audiofile
+Filename: ./audiofile-static_0.3.6-1_aarch64.deb
+Size: 173272
+MD5sum: 80dd596c47fefb04ad2446e77ce7f9f5
+SHA1: 5c14386acb5bb99cdcda5d0d75d0551e7e06e929
+SHA256: ce48ed23859e8320394bcd30f17e095ac8e4e29cd34a64112a0e57c81999c3c1
+
+Package: audiofile
+Architecture: aarch64
+Installed-Size: 460
+Maintainer: @termux
+Version: 0.3.6-1
+Homepage: https://audiofile.68k.org/
+Depends: flac, libc++
+Description: Silicon Graphics Audio File Library
+Filename: ./audiofile_0.3.6-1_aarch64.deb
+Size: 91248
+MD5sum: c95acdb8db7e2a0c17947bc128c52da7
+SHA1: 9de82844b7c39cd2c6aa1effe49e913db48480ee
+SHA256: 028337e12cae3e82ab5aa15250980f7cbf60b9caf76b75daefe195295818c5fe
+
+Package: autoconf-archive
+Architecture: all
+Installed-Size: 4624
+Maintainer: @termux
+Version: 2024.10.16-1
+Homepage: https://www.gnu.org/software/autoconf-archive/
+Description: A collection of freely re-usable Autoconf macros
+Filename: ./autoconf-archive_2024.10.16-1_all.deb
+Size: 402628
+MD5sum: 83c97af9914f3b4e3edb6afdbe5a7202
+SHA1: a59742b8947f636a0cf9402a3a12d8877433b4cb
+SHA256: 40f730535b65b71e9b448deac99125f7d697e62c6a06fe0d5fd95282ecbd4562
+
 Package: autoconf
 Architecture: all
 Installed-Size: 3680
@@ -764,6 +835,20 @@ Size: 624792
 MD5sum: 56f5e0025feefdfb13eb502d8fecf43c
 SHA1: 6ae31fe7aa02803735b0ae8698d2ad9968a77a06
 SHA256: d9a3c687e4ffc3d003c342b17be1a5eead2d6f00d1b8a1c0763ae8d62360e664
+
+Package: autojump
+Architecture: all
+Installed-Size: 216
+Maintainer: @termux
+Version: 22.5.3-3
+Homepage: https://github.com/wting/autojump
+Depends: python
+Description: A faster way to navigate your filesystem
+Filename: ./autojump_22.5.3-3_all.deb
+Size: 27888
+MD5sum: a41da1b3f17ed7c36785949d1e5214d0
+SHA1: 32cff1a0844bcd0cc04a0bf5a4aca2dc2e637f32
+SHA256: 4b07352199f340319b2a5260bb8976feb87a5bcb015932c23733ae8b2708b3ba
 
 Package: automake
 Architecture: all
@@ -1802,6 +1887,20 @@ Size: 10652020
 MD5sum: 821c0198d041f229726b45534f5daf53
 SHA1: d08c934ac5a1b4b8f191ea1e1c7bd301b5ccd986
 SHA256: bed9e2a842de491eed95a9a36c024df38a3dd1e3f3a4ba21769b652516fdd2fb
+
+Package: cpio
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 2.15-2
+Homepage: https://www.gnu.org/software/cpio/
+Depends: tar
+Description: CPIO implementation from the GNU project
+Filename: ./cpio_2.15-2_aarch64.deb
+Size: 66260
+MD5sum: f71af5af47f30e9431ae669e5ba9805b
+SHA1: bd2a3cd6f54cda98e1ebe0112825934d8e7fcef7
+SHA256: cdc18adff6c80386abf8c4f9007759cf4e8e3d79b578706abb8fbe0fd723ce71
 
 Package: curl
 Architecture: aarch64
@@ -5348,6 +5447,34 @@ Size: 92396
 MD5sum: 9b74dfeda4d2530ba453210c0a3aca7e
 SHA1: 7b7b75d1d60a68ba0976939ad05b142e24b923c0
 SHA256: d2cc3a0445f1d35f8ba75b85d5f4f7b11c2e0b1165e376de02755b3985bbdaa4
+
+Package: lzip
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 1.26-1
+Homepage: https://www.nongnu.org/lzip/
+Depends: libc++
+Description: Lossless data compressor similar to gzip and bzip2
+Filename: ./lzip_1.26-1_aarch64.deb
+Size: 66920
+MD5sum: e209745137de88cf182110d9af4d177a
+SHA1: 7b885d543e86732e6ad4ef57ee1abc2b3940475d
+SHA256: e3339468e81b9948948096180c525953607b0ecab315209198fa2d25714eb5ba
+
+Package: lzop
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 1.04-3
+Homepage: https://www.lzop.org
+Depends: liblzo
+Description: File compressor using lzo lib.
+Filename: ./lzop_1.04-3_aarch64.deb
+Size: 61684
+MD5sum: 5a992c10490521d3b86ee86d91cb971f
+SHA1: 95bd2d45d934c65099702239e1ceb2f704be8b4f
+SHA256: 2fc3c74d991744313938410955e7e01c148a6fd0baeb5ba763f2859febfa91dd
 
 Package: m4
 Architecture: aarch64
